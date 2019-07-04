@@ -28,9 +28,12 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "dummy": "node ./dummy.js"
   },
   "devDependencies": {
+    "datocms-client": "^2.0.6",
+    "lorem-ipsum": "^2.0.3",
     "prettier": "^1.17.0"
   }
 }
